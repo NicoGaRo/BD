@@ -50,7 +50,7 @@ arg_train_labels <- arg[1:218, ]$Sentiment
 arg_test_labels <- arg[219:364, ]$Sentiment
 
 prop.table(table(arg_train_labels))
-#Las proporciones entre las clases de tweets muestran una tendencia hacia la neutralidad (0.53), con un la negatividad como
+#Las proporciones entre las clases de tweets muestran una tendencia hacia la neutralidad (0.53), con la negatividad como
 #segunda opcion (0.33) y los positivos solo (0.12)
 
 prop.table(table(arg_test_labels))
